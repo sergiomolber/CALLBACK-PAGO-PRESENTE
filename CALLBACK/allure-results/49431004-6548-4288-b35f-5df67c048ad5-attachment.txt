@@ -1,0 +1,1 @@
+{"meta":{"messageUid":"54605465046","requestDate":"2025-11-21T16:42:52.895","requestAppId":"2ef6f4fa-c8fd-4e20-8777-a4d46fd6ca20"},"statusCode":400,"statusDesc":"Bad Request","errors":[{"code":"1018","detail":"Información incompleta, complete todos los campos obligatorios"}]}

@@ -1,0 +1,1 @@
+{"meta":{"messageUid":"54605465046","requestDate":"2025-11-21T16:42:56.528","requestAppId":"8cfcd493-22ae-48ed-b2f9-0cb78bc72a0b"},"statusCode":400,"statusDesc":"Bad Request","errors":[{"code":"1013","detail":"Información incompleta. La longitud del campo no cumple con los requisitos requeridos"}]}

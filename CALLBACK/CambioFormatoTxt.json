@@ -1,0 +1,71 @@
+{
+	"info": {
+		"_postman_id": "d0370abb-b234-475d-8422-c624f528af7c",
+		"name": "Formato Json",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "29460625",
+		"_collection_link": "https://red-satellite-829132.postman.co/workspace/CALLBACK-ULTIMO~36fe7b08-fb6d-43f5-a4a1-891d44294124/collection/29460625-d0370abb-b234-475d-8422-c624f528af7c?action=share&source=collection_link&creator=29460625"
+	},
+	"item": [
+		{
+			"name": "Formato Json",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 415\", function () {\r",
+							"    pm.response.to.have.status(415);\r",
+							"});\r",
+							" \r",
+							""
+						],
+						"type": "text/javascript",
+						"packages": {},
+						"requests": {}
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{access_token_callback}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "message-uid",
+						"value": "65274d8ea32d7c1c3410a6b2792c277f"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"transferId\": \"XzwutTb9BlZbefE2N\",\r\n  \"txId\": \"dbc977ef-1e72-41cd-ae87-fc8714be383b\",\r\n  \"type\": \"SEND\",\r\n  \"status\": \"COMPLETED\",\r\n  \"sourceWallet\": \"$573134110107\",\r\n  \"sourceSigner\": \"wPhvAtaBdjs5BNeS7gxR6L4q9JM9rRZZTq\",\r\n  \"sourceBank\": \"Banco Rojo\",\r\n  \"sourceBankBicfi\":\"7095\" ,\r\n  \"targetWallet\":\"walletDestino789\" ,\r\n  \"targetSigner\":\"signerDestino012\" ,\r\n   \"targetBank\": \"Banco Amarillo\",\r\n  \"targetBankBicfi\": \"3854\",\r\n  \"amount\": \"10\",\r\n  \"symbol\": \"$tin\",\r\n  \"created\": \"2025-06-09T18:50:58.576\",\r\n  \"updated\": \"2025-06-09T18:50:58.576\",\r\n  \"sourceChannel\":\"PSE\" ,\r\n  \"transactionPurpose\":\"PAYMENTALIADOS\" ,\r\n  \"error\": {\r\n    \"code\": \"1013\",\r\n    \"message\": \"PAYMENTALIADOSPAYMENTALIADOSPA32sS\"\r\n  }\r\n}",
+					"options": {
+						"raw": {
+							"language": "text"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{base-url}}/transfers/zPSaK3TzhqfPMitnm/callback",
+					"host": [
+						"{{base-url}}"
+					],
+					"path": [
+						"transfers",
+						"zPSaK3TzhqfPMitnm",
+						"callback"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

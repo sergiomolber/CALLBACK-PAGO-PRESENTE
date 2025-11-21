@@ -1,0 +1,21 @@
+{
+    "Connection": "Keep-Alive",
+    "Transfer-Encoding": "chunked",
+    "Content-type": "application/json; charset=utf-8",
+    "API-Version": "3.3.1",
+    "Rate-Limit": "1/1second",
+    "message-uuid": "",
+    "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+    "X-Frame-Options": "DENY",
+    "Content-Security-Policy": "default-src 'self' *.achcolombia.com",
+    "X-Content-Type-Options": "nosniff",
+    "Cache-Control": "private, no-cache, no-store, max-age=0, no-transfor",
+    "Pragma": "no-cache",
+    "Expires": "0",
+    "message-uid": "54605465046",
+    "X-Global-Transaction-ID": "f869e99b6920dcdc0015c2b0",
+    "X-RateLimit-Limit": "name=default,1;",
+    "X-RateLimit-Remaining": "name=default,0;",
+    "Date": "Fri, 21 Nov 2025 21:42:52 GMT",
+    "Content-Encoding": "gzip"
+}

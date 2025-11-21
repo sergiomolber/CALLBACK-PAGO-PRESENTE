@@ -1,0 +1,1 @@
+{"meta":{"messageUid":"54605465046","requestDate":"2025-11-21T16:43:02.476","requestAppId":"f7b63400-6cfc-4d72-8e69-d074153fd09e"},"statusCode":400,"statusDesc":"Bad Request","errors":[{"code":"1013","detail":"La calidad de los datos ingresados no cumple con los requisitos. Revise y diligencie la información correcta"}]}

@@ -1,0 +1,24 @@
+{
+  "transferId": "XzwutTb9BlZbefE2N",
+  "txId": "dbc977ef-1e72-41cd-ae87-fc8714be383b",
+  "type": "SEND",
+  "status": "COMPLETED",
+  "sourceWallet": "$573134110107",
+  "sourceSigner": "wPhvAtaBdjs5BNeS7gxR6L4q9JM9rRZZTq",
+  "sourceBank": "Banco Rojo",
+  "sourceBankBicfi":"7095" ,
+  "targetWallet":"walletDestino789" ,
+  "targetSigner":"signerDestino012" ,
+   "targetBank": "Banco Amarillo",
+  "targetBankBicfi": "3854",
+  "amount": "10",
+  "symbol": "$tin",
+  "created": "2025-06-09T18:50:58.576",
+  "updated": "2025-06-09T18:50:58.576",
+  "sourceChannel":"" ,
+  "transactionPurpose":"PAYMENTALIADOS" ,
+  "error": {
+    "code": "1013",
+    "message": "Prueba"
+  }
+}

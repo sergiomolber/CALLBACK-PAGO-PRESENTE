@@ -1,0 +1,14 @@
+{
+    "message-uid": "c9813ba4-52ee-4c10-9228-a0268529d626",
+    "api-key": "f494c2f3-2e29-4766-b706-ec9313470472",
+    "Content-Type": "application/json",
+    "Authorization": "Bearer AAIgOWQ4MTMyZGE1YzYxZjcyMTRlMmM3ZWZjZTZjNmQ0NTVr7ZAXwhSzgoJxPpYlaKXVdzeF-eSgHcKW2frJbOHtvJ5u_vsGsR3hXWiRvmlceJcPgOAvHZhkFbPdGds_VDrqQDA2jEDCv3rnokKsctJb4vySfUt4oMK80yRd43l4dNY",
+    "User-Agent": "PostmanRuntime/7.39.0",
+    "Accept": "*/*",
+    "Cache-Control": "no-cache",
+    "Postman-Token": "98b11c66-47e9-44b6-9e25-9554d3f9f99b",
+    "Host": "business.transfiya.com.co",
+    "Accept-Encoding": "gzip, deflate, br",
+    "Connection": "keep-alive",
+    "Content-Length": "666"
+}
