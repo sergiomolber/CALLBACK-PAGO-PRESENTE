@@ -1,10 +1,10 @@
 {
 	"info": {
-		"_postman_id": "5ae48a36-45f8-4a1c-b6e6-1fc27d34e8f5",
+		"_postman_id": "3837725a-9386-43df-8933-8cf178cca42d",
 		"name": "anulacion cambio PENDING",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
 		"_exporter_id": "29460625",
-		"_collection_link": "https://red-satellite-829132.postman.co/workspace/pruebas-presente~2ddec344-6c80-40af-a408-09f9f1b4b366/collection/29460625-5ae48a36-45f8-4a1c-b6e6-1fc27d34e8f5?action=share&source=collection_link&creator=29460625"
+		"_collection_link": "https://red-satellite-829132.postman.co/workspace/CALLBACK-ULTIMO~36fe7b08-fb6d-43f5-a4a1-891d44294124/collection/29460625-3837725a-9386-43df-8933-8cf178cca42d?action=share&source=collection_link&creator=29460625"
 	},
 	"item": [
 		{
@@ -410,7 +410,8 @@
 							""
 						],
 						"type": "text/javascript",
-						"packages": {}
+						"packages": {},
+						"requests": {}
 					}
 				}
 			],
@@ -440,7 +441,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n\"transferId\": \"{{transferId}}\",\r\n    \"tx_id\": \"{{txRef}}\",\r\n    \"status\": \"COMPLETED\",\r\n    \"type\": \"REQUEST\",\r\n    \"created\": \"2023-11-09T11:56:10-05:00\",\r\n    \"updated\": \"2023-11-09T11:56:23-05:00\",\r\n    \"amount\": \"116400.00\",\r\n    \"symbol\": \"$tin\",\r\n     \"errorCode\": \"1013\",\r\n   \"errorDesc\": \"Some Desc\"\r\n}",
+					"raw": "{\r\n  \"transferId\": \"{{txRef}}\",\r\n  \"txId\": \"{{transferId}}\",\r\n  \"type\": \"SEND\",\r\n  \"status\": \"COMPLETED\",\r\n  \"sourceWallet\": \"$573134110107\",\r\n  \"sourceSigner\": \"wPhvAtaBdjs5BNeS7gxR6L4q9JM9rRZZTq\",\r\n  \"sourceBank\": \"Banco Rojo\",\r\n  \"sourceBankBicfi\":\"7095\" ,\r\n  \"targetWallet\":\"walletDestino789\" ,\r\n  \"targetSigner\":\"signerDestino012\" ,\r\n   \"targetBank\": \"Banco Amarillo\",\r\n  \"targetBankBicfi\": \"3854\",\r\n  \"amount\": \"10\",\r\n  \"symbol\": \"$tin\",\r\n  \"created\": \"2025-06-09T18:50:58.576\",\r\n  \"updated\": \"2025-06-09T18:50:58.576\",\r\n  \"sourceChannel\":\"PSE\" ,\r\n  \"transactionPurpose\":\"PAYMENTALIADOS\" ,\r\n  \"error\": {\r\n    \"code\": \"1013\",\r\n    \"message\": \"PAYMENTALIADOSPAYMENTALIADOSPA32sS\"\r\n  }\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
