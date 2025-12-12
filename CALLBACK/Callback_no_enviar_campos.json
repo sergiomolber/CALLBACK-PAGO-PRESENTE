@@ -1,10 +1,10 @@
 {
 	"info": {
-		"_postman_id": "21d53e10-cd84-41ad-9759-f7978fc4c62e",
+		"_postman_id": "09ea3bb6-6f8e-43a2-ace2-2386d7b3b921",
 		"name": "Callback Sin enviar campos",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
 		"_exporter_id": "29460625",
-		"_collection_link": "https://red-satellite-829132.postman.co/workspace/CALLBACK-ULTIMO~36fe7b08-fb6d-43f5-a4a1-891d44294124/collection/29460625-21d53e10-cd84-41ad-9759-f7978fc4c62e?action=share&source=collection_link&creator=29460625"
+		"_collection_link": "https://red-satellite-829132.postman.co/workspace/CALLBACK-ULTIMO~36fe7b08-fb6d-43f5-a4a1-891d44294124/collection/29460625-09ea3bb6-6f8e-43a2-ace2-2386d7b3b921?action=share&source=collection_link&creator=29460625"
 	},
 	"item": [
 		{
@@ -51,7 +51,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n  \"transferId\": \"04gGnPuZJbnTNls1a\",\r\n  \"tx_id\": \"3PnV6fLLJZrYssHTzpvjh\",\r\n  \"sourceWallet\": \"walletOrigen123\",\r\n  \"sourceSigner\": \"signerOrigen456\",\r\n  \"sourceBank\": \"Banco Rojo\",\r\n  \"sourceBankBicfi\": \"BCRD\",\r\n  \"targetWallet\": \"walletDestino789\",\r\n  \"targetSigner\": \"signerDestino012\",\r\n  \"targetBank\": \"Banco Amarillo\",\r\n  \"targetBankBicfi\": \"BAMR\",\r\n  \"amount\": \"15000\",\r\n  \"symbol\": \"$tin\",\r\n  \"type\": \"SEND\",\r\n  \"status\": \"COMPLETED\",\r\n  \"created\": \"2023-07-25T14:55:22-05:00\",\r\n  \"updated\": \"2023-07-25T14:55:30-05:00\",\r\n  \"sourceChannel\": \"PSE\",\r\n  \"transactionPurpose\": \"Pago de servicios\",\r\n  \"error\": {\r\n    \"code\": \"1013\",\r\n    \"message\": \"Descripción del código de error\"\r\n  }\r\n}",
+					"raw": "{\r\n  \"transferId\": \"02mhGOoMbaGZbJDj5\",\r\n  \"txId\": \"14acf8e9-1eb1-47ef-b0f2-77415738cbed\",\r\n  \"type\": \"SEND\",\r\n  \"status\": \"COMPLETED\",\r\n  \"sourceWallet\": \"$573134110107\",\r\n  \"sourceSigner\": \"wPhvAtaBdjs5BNeS7gxR6L4q9JM9rRZZTq\",\r\n  \"sourceBank\": \"Banco Rojo\",\r\n  \"sourceBankBicfi\":\"7095\" ,\r\n  \"targetWallet\":\"walletDestino789\" ,\r\n  \"targetSigner\":\"signerDestino012\" ,\r\n   \"targetBank\": \"Banco Amarillo\",\r\n  \"targetBankBicfi\": \"3854\",\r\n  \"amount\": \"10\",\r\n  \"symbol\": \"$tin\",\r\n  \"created\": \"2025-06-09T18:50:58.576\",\r\n  \"updated\": \"2025-06-09T18:50:58.576\",\r\n  \"sourceChannel\":\"PSE\" ,\r\n  \"transactionPurpose\":\"PAYMENTALIADOS\" ,\r\n  \"error\": {\r\n    \"code\": \"1013\",\r\n    \"message\": \"PAYMENTALIADOSPAYMENTALIADOSPA32sS\"\r\n  }\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -122,7 +122,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n \r\n  \"tx_id\": \"3PnV6fLLJZrYssHTzpvjh\",\r\n  \"sourceWallet\": \"walletOrigen123\",\r\n  \"sourceSigner\": \"signerOrigen456\",\r\n  \"sourceBank\": \"Banco Rojo\",\r\n  \"sourceBankBicfi\": \"BCRD\",\r\n  \"targetWallet\": \"walletDestino789\",\r\n  \"targetSigner\": \"signerDestino012\",\r\n  \"targetBank\": \"Banco Amarillo\",\r\n  \"targetBankBicfi\": \"BAMR\",\r\n  \"amount\": \"15000\",\r\n  \"symbol\": \"$tin\",\r\n  \"type\": \"SEND\",\r\n  \"status\": \"COMPLETED\",\r\n  \"created\": \"2023-07-25T14:55:22-05:00\",\r\n  \"updated\": \"2023-07-25T14:55:30-05:00\",\r\n  \"sourceChannel\": \"PSE\",\r\n  \"transactionPurpose\": \"Pago de servicios\",\r\n  \"error\": {\r\n    \"code\": \"1013\",\r\n    \"message\": \"Descripción del código de error\"\r\n  }\r\n}",
+					"raw": "{\r\n  \r\n  \"txId\": \"14acf8e9-1eb1-47ef-b0f2-77415738cbed\",\r\n  \"type\": \"SEND\",\r\n  \"status\": \"COMPLETED\",\r\n  \"sourceWallet\": \"$573134110107\",\r\n  \"sourceSigner\": \"wPhvAtaBdjs5BNeS7gxR6L4q9JM9rRZZTq\",\r\n  \"sourceBank\": \"Banco Rojo\",\r\n  \"sourceBankBicfi\":\"7095\" ,\r\n  \"targetWallet\":\"walletDestino789\" ,\r\n  \"targetSigner\":\"signerDestino012\" ,\r\n   \"targetBank\": \"Banco Amarillo\",\r\n  \"targetBankBicfi\": \"3854\",\r\n  \"amount\": \"10\",\r\n  \"symbol\": \"$tin\",\r\n  \"created\": \"2025-06-09T18:50:58.576\",\r\n  \"updated\": \"2025-06-09T18:50:58.576\",\r\n  \"sourceChannel\":\"PSE\" ,\r\n  \"transactionPurpose\":\"PAYMENTALIADOS\" ,\r\n  \"error\": {\r\n    \"code\": \"1013\",\r\n    \"message\": \"PAYMENTALIADOSPAYMENTALIADOSPA32sS\"\r\n  }\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -264,7 +264,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n  \"transferId\": \"04gGnPuZJbnTNls1a\",\r\n  \"tx_id\": \"3PnV6fLLJZrYssHTzpvjh\",\r\n  \"sourceWallet\": \"walletOrigen123\",\r\n  \"sourceSigner\": \"signerOrigen456\",\r\n  \"sourceBank\": \"Banco Rojo\",\r\n  \"sourceBankBicfi\": \"BCRD\",\r\n  \"targetWallet\": \"walletDestino789\",\r\n  \"targetSigner\": \"signerDestino012\",\r\n  \"targetBank\": \"Banco Amarillo\",\r\n  \"targetBankBicfi\": \"BAMR\",\r\n  \"amount\": \"15000\",\r\n  \"symbol\": \"$tin\",\r\n  \"type\": \"SEND\",\r\n  \r\n  \"created\": \"2023-07-25T14:55:22-05:00\",\r\n  \"updated\": \"2023-07-25T14:55:30-05:00\",\r\n  \"sourceChannel\": \"PSE\",\r\n  \"transactionPurpose\": \"Pago de servicios\",\r\n  \"error\": {\r\n    \"code\": \"1013\",\r\n    \"message\": \"Descripción del código de error\"\r\n  }\r\n}",
+					"raw": "{\r\n  \"transferId\": \"02mhGOoMbaGZbJDj5\",\r\n  \"txId\": \"14acf8e9-1eb1-47ef-b0f2-77415738cbed\",\r\n  \"type\": \"SEND\",\r\n  \r\n  \"sourceWallet\": \"$573134110107\",\r\n  \"sourceSigner\": \"wPhvAtaBdjs5BNeS7gxR6L4q9JM9rRZZTq\",\r\n  \"sourceBank\": \"Banco Rojo\",\r\n  \"sourceBankBicfi\":\"7095\" ,\r\n  \"targetWallet\":\"walletDestino789\" ,\r\n  \"targetSigner\":\"signerDestino012\" ,\r\n   \"targetBank\": \"Banco Amarillo\",\r\n  \"targetBankBicfi\": \"3854\",\r\n  \"amount\": \"10\",\r\n  \"symbol\": \"$tin\",\r\n  \"created\": \"2025-06-09T18:50:58.576\",\r\n  \"updated\": \"2025-06-09T18:50:58.576\",\r\n  \"sourceChannel\":\"PSE\" ,\r\n  \"transactionPurpose\":\"PAYMENTALIADOS\" ,\r\n  \"error\": {\r\n    \"code\": \"1013\",\r\n    \"message\": \"PAYMENTALIADOSPAYMENTALIADOSPA32sS\"\r\n  }\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -335,7 +335,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n  \"transferId\": \"04gGnPuZJbnTNls1a\",\r\n  \"tx_id\": \"3PnV6fLLJZrYssHTzpvjh\",\r\n  \"sourceWallet\": \"walletOrigen123\",\r\n  \"sourceSigner\": \"signerOrigen456\",\r\n  \"sourceBank\": \"Banco Rojo\",\r\n  \"sourceBankBicfi\": \"BCRD\",\r\n  \"targetWallet\": \"walletDestino789\",\r\n  \"targetSigner\": \"signerDestino012\",\r\n  \"targetBank\": \"Banco Amarillo\",\r\n  \"targetBankBicfi\": \"BAMR\",\r\n  \"amount\": \"15000\",\r\n  \"symbol\": \"$tin\",\r\n \r\n  \"status\": \"COMPLETED\",\r\n  \"created\": \"2023-07-25T14:55:22-05:00\",\r\n  \"updated\": \"2023-07-25T14:55:30-05:00\",\r\n  \"sourceChannel\": \"PSE\",\r\n  \"transactionPurpose\": \"Pago de servicios\",\r\n  \"error\": {\r\n    \"code\": \"1013\",\r\n    \"message\": \"Descripción del código de error\"\r\n  }\r\n}",
+					"raw": "{\r\n  \"transferId\": \"02mhGOoMbaGZbJDj5\",\r\n  \"txId\": \"14acf8e9-1eb1-47ef-b0f2-77415738cbed\",\r\n  \r\n  \"status\": \"COMPLETED\",\r\n  \"sourceWallet\": \"$573134110107\",\r\n  \"sourceSigner\": \"wPhvAtaBdjs5BNeS7gxR6L4q9JM9rRZZTq\",\r\n  \"sourceBank\": \"Banco Rojo\",\r\n  \"sourceBankBicfi\":\"7095\" ,\r\n  \"targetWallet\":\"walletDestino789\" ,\r\n  \"targetSigner\":\"signerDestino012\" ,\r\n   \"targetBank\": \"Banco Amarillo\",\r\n  \"targetBankBicfi\": \"3854\",\r\n  \"amount\": \"10\",\r\n  \"symbol\": \"$tin\",\r\n  \"created\": \"2025-06-09T18:50:58.576\",\r\n  \"updated\": \"2025-06-09T18:50:58.576\",\r\n  \"sourceChannel\":\"PSE\" ,\r\n  \"transactionPurpose\":\"PAYMENTALIADOS\" ,\r\n  \"error\": {\r\n    \"code\": \"1013\",\r\n    \"message\": \"PAYMENTALIADOSPAYMENTALIADOSPA32sS\"\r\n  }\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -397,7 +397,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n  \"transferId\": \"04gGnPuZJbnTNls1a\",\r\n  \"tx_id\": \"3PnV6fLLJZrYssHTzpvjh\",\r\n  \"sourceWallet\": \"walletOrigen123\",\r\n  \"sourceSigner\": \"signerOrigen456\",\r\n  \"sourceBank\": \"Banco Rojo\",\r\n  \"sourceBankBicfi\": \"BCRD\",\r\n  \"targetWallet\": \"walletDestino789\",\r\n  \"targetSigner\": \"signerDestino012\",\r\n  \"targetBank\": \"Banco Amarillo\",\r\n  \"targetBankBicfi\": \"BAMR\",\r\n  \"amount\": \"15000\",\r\n  \"symbol\": \"$tin\",\r\n  \"type\": \"SEND\",\r\n  \"status\": \"COMPLETED\",\r\n  \r\n  \"updated\": \"2023-07-25T14:55:30-05:00\",\r\n  \"sourceChannel\": \"PSE\",\r\n  \"transactionPurpose\": \"Pago de servicios\",\r\n  \"error\": {\r\n    \"code\": \"1013\",\r\n    \"message\": \"Descripción del código de error\"\r\n  }\r\n}",
+					"raw": "{\r\n  \"transferId\": \"02mhGOoMbaGZbJDj5\",\r\n  \"txId\": \"14acf8e9-1eb1-47ef-b0f2-77415738cbed\",\r\n  \"type\": \"SEND\",\r\n  \"status\": \"COMPLETED\",\r\n  \"sourceWallet\": \"$573134110107\",\r\n  \"sourceSigner\": \"wPhvAtaBdjs5BNeS7gxR6L4q9JM9rRZZTq\",\r\n  \"sourceBank\": \"Banco Rojo\",\r\n  \"sourceBankBicfi\":\"7095\" ,\r\n  \"targetWallet\":\"walletDestino789\" ,\r\n  \"targetSigner\":\"signerDestino012\" ,\r\n   \"targetBank\": \"Banco Amarillo\",\r\n  \"targetBankBicfi\": \"3854\",\r\n  \"amount\": \"10\",\r\n  \"symbol\": \"$tin\",\r\n  \r\n  \"updated\": \"2025-06-09T18:50:58.576\",\r\n  \"sourceChannel\":\"PSE\" ,\r\n  \"transactionPurpose\":\"PAYMENTALIADOS\" ,\r\n  \"error\": {\r\n    \"code\": \"1013\",\r\n    \"message\": \"PAYMENTALIADOSPAYMENTALIADOSPA32sS\"\r\n  }\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -459,7 +459,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n  \"transferId\": \"04gGnPuZJbnTNls1a\",\r\n  \"tx_id\": \"3PnV6fLLJZrYssHTzpvjh\",\r\n  \"sourceWallet\": \"walletOrigen123\",\r\n  \"sourceSigner\": \"signerOrigen456\",\r\n  \"sourceBank\": \"Banco Rojo\",\r\n  \"sourceBankBicfi\": \"BCRD\",\r\n  \"targetWallet\": \"walletDestino789\",\r\n  \"targetSigner\": \"signerDestino012\",\r\n  \"targetBank\": \"Banco Amarillo\",\r\n  \"targetBankBicfi\": \"BAMR\",\r\n  \"amount\": \"15000\",\r\n  \"symbol\": \"$tin\",\r\n  \"type\": \"SEND\",\r\n  \"status\": \"COMPLETED\",\r\n  \"created\": \"2023-07-25T14:55:22-05:00\",\r\n \r\n  \"sourceChannel\": \"PSE\",\r\n  \"transactionPurpose\": \"Pago de servicios\",\r\n  \"error\": {\r\n    \"code\": \"1013\",\r\n    \"message\": \"Descripción del código de error\"\r\n  }\r\n}",
+					"raw": "{\r\n  \"transferId\": \"02mhGOoMbaGZbJDj5\",\r\n  \"txId\": \"14acf8e9-1eb1-47ef-b0f2-77415738cbed\",\r\n  \"type\": \"SEND\",\r\n  \"status\": \"COMPLETED\",\r\n  \"sourceWallet\": \"$573134110107\",\r\n  \"sourceSigner\": \"wPhvAtaBdjs5BNeS7gxR6L4q9JM9rRZZTq\",\r\n  \"sourceBank\": \"Banco Rojo\",\r\n  \"sourceBankBicfi\":\"7095\" ,\r\n  \"targetWallet\":\"walletDestino789\" ,\r\n  \"targetSigner\":\"signerDestino012\" ,\r\n   \"targetBank\": \"Banco Amarillo\",\r\n  \"targetBankBicfi\": \"3854\",\r\n  \"amount\": \"10\",\r\n  \"symbol\": \"$tin\",\r\n  \"created\": \"2025-06-09T18:50:58.576\",\r\n  \r\n  \"sourceChannel\":\"PSE\" ,\r\n  \"transactionPurpose\":\"PAYMENTALIADOS\" ,\r\n  \"error\": {\r\n    \"code\": \"1013\",\r\n    \"message\": \"PAYMENTALIADOSPAYMENTALIADOSPA32sS\"\r\n  }\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -522,7 +522,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n  \"transferId\": \"04gGnPuZJbnTNls1a\",\r\n  \"tx_id\": \"3PnV6fLLJZrYssHTzpvjh\",\r\n  \"sourceWallet\": \"walletOrigen123\",\r\n  \"sourceSigner\": \"signerOrigen456\",\r\n  \"sourceBank\": \"Banco Rojo\",\r\n  \"sourceBankBicfi\": \"BCRD\",\r\n  \"targetWallet\": \"walletDestino789\",\r\n  \"targetSigner\": \"signerDestino012\",\r\n  \"targetBank\": \"Banco Amarillo\",\r\n  \"targetBankBicfi\": \"BAMR\",\r\n  \r\n  \"symbol\": \"$tin\",\r\n  \"type\": \"SEND\",\r\n  \"status\": \"COMPLETED\",\r\n  \"created\": \"2023-07-25T14:55:22-05:00\",\r\n  \"updated\": \"2023-07-25T14:55:30-05:00\",\r\n  \"sourceChannel\": \"PSE\",\r\n  \"transactionPurpose\": \"Pago de servicios\",\r\n  \"error\": {\r\n    \"code\": \"1013\",\r\n    \"message\": \"Descripción del código de error\"\r\n  }\r\n}",
+					"raw": "{\r\n  \"transferId\": \"02mhGOoMbaGZbJDj5\",\r\n  \"txId\": \"14acf8e9-1eb1-47ef-b0f2-77415738cbed\",\r\n  \"type\": \"SEND\",\r\n  \"status\": \"COMPLETED\",\r\n  \"sourceWallet\": \"$573134110107\",\r\n  \"sourceSigner\": \"wPhvAtaBdjs5BNeS7gxR6L4q9JM9rRZZTq\",\r\n  \"sourceBank\": \"Banco Rojo\",\r\n  \"sourceBankBicfi\":\"7095\" ,\r\n  \"targetWallet\":\"walletDestino789\" ,\r\n  \"targetSigner\":\"signerDestino012\" ,\r\n   \"targetBank\": \"Banco Amarillo\",\r\n  \"targetBankBicfi\": \"3854\",\r\n  \r\n  \"symbol\": \"$tin\",\r\n  \"created\": \"2025-06-09T18:50:58.576\",\r\n  \"updated\": \"2025-06-09T18:50:58.576\",\r\n  \"sourceChannel\":\"PSE\" ,\r\n  \"transactionPurpose\":\"PAYMENTALIADOS\" ,\r\n  \"error\": {\r\n    \"code\": \"1013\",\r\n    \"message\": \"PAYMENTALIADOSPAYMENTALIADOSPA32sS\"\r\n  }\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -585,7 +585,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n  \"transferId\": \"04gGnPuZJbnTNls1a\",\r\n  \"tx_id\": \"3PnV6fLLJZrYssHTzpvjh\",\r\n  \"sourceWallet\": \"walletOrigen123\",\r\n  \"sourceSigner\": \"signerOrigen456\",\r\n  \"sourceBank\": \"Banco Rojo\",\r\n  \"sourceBankBicfi\": \"BCRD\",\r\n  \"targetWallet\": \"walletDestino789\",\r\n  \"targetSigner\": \"signerDestino012\",\r\n  \"targetBank\": \"Banco Amarillo\",\r\n  \"targetBankBicfi\": \"BAMR\",\r\n  \"amount\": \"15000\",\r\n  \r\n  \"type\": \"SEND\",\r\n  \"status\": \"COMPLETED\",\r\n  \"created\": \"2023-07-25T14:55:22-05:00\",\r\n  \"updated\": \"2023-07-25T14:55:30-05:00\",\r\n  \"sourceChannel\": \"PSE\",\r\n  \"transactionPurpose\": \"Pago de servicios\",\r\n  \"error\": {\r\n    \"code\": \"1013\",\r\n    \"message\": \"Descripción del código de error\"\r\n  }\r\n}",
+					"raw": "{\r\n  \"transferId\": \"02mhGOoMbaGZbJDj5\",\r\n  \"txId\": \"14acf8e9-1eb1-47ef-b0f2-77415738cbed\",\r\n  \"type\": \"SEND\",\r\n  \"status\": \"COMPLETED\",\r\n  \"sourceWallet\": \"$573134110107\",\r\n  \"sourceSigner\": \"wPhvAtaBdjs5BNeS7gxR6L4q9JM9rRZZTq\",\r\n  \"sourceBank\": \"Banco Rojo\",\r\n  \"sourceBankBicfi\":\"7095\" ,\r\n  \"targetWallet\":\"walletDestino789\" ,\r\n  \"targetSigner\":\"signerDestino012\" ,\r\n   \"targetBank\": \"Banco Amarillo\",\r\n  \"targetBankBicfi\": \"3854\",\r\n  \"amount\": \"10\",\r\n  \r\n  \"created\": \"2025-06-09T18:50:58.576\",\r\n  \"updated\": \"2025-06-09T18:50:58.576\",\r\n  \"sourceChannel\":\"PSE\" ,\r\n  \"transactionPurpose\":\"PAYMENTALIADOS\" ,\r\n  \"error\": {\r\n    \"code\": \"1013\",\r\n    \"message\": \"PAYMENTALIADOSPAYMENTALIADOSPA32sS\"\r\n  }\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -648,7 +648,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n  \"transferId\": \"04gGnPuZJbnTNls1a\",\r\n  \"txId\": \"3PnV6fLLJZrYssHTzpvjh\",\r\n  \"sourceWallet\": \"walletOrigen123\",\r\n  \"sourceSigner\": \"signerOrigen456\",\r\n  \"sourceBank\": \"Banco Rojo\",\r\n  \"sourceBankBicfi\": \"BCRD\",\r\n  \"targetWallet\": \"walletDestino789\",\r\n  \"targetSigner\": \"signerDestino012\",\r\n  \"targetBank\": \"Banco Amarillo\",\r\n  \"targetBankBicfi\": \"BAMR\",\r\n  \"amount\": \"15000\",\r\n  \"symbol\": \"$tin\",\r\n  \"type\": \"SEND\",\r\n  \"status\": \"COMPLETED\",\r\n  \"created\": \"2023-07-25T14:55:22-05:00\",\r\n  \"updated\": \"2023-07-25T14:55:30-05:00\",\r\n  \"sourceChannel\": \"PSE\",\r\n  \"transactionPurpose\": \"Pago de servicios\",\r\n  \"error\": {\r\n   \r\n    \"message\": \"Descripción del código de error\"\r\n  }\r\n}",
+					"raw": "{\r\n  \"transferId\": \"02mhGOoMbaGZbJDj5\",\r\n  \"txId\": \"14acf8e9-1eb1-47ef-b0f2-77415738cbed\",\r\n  \"type\": \"SEND\",\r\n  \"status\": \"COMPLETED\",\r\n  \"sourceWallet\": \"$573134110107\",\r\n  \"sourceSigner\": \"wPhvAtaBdjs5BNeS7gxR6L4q9JM9rRZZTq\",\r\n  \"sourceBank\": \"Banco Rojo\",\r\n  \"sourceBankBicfi\":\"7095\" ,\r\n  \"targetWallet\":\"walletDestino789\" ,\r\n  \"targetSigner\":\"signerDestino012\" ,\r\n   \"targetBank\": \"Banco Amarillo\",\r\n  \"targetBankBicfi\": \"3854\",\r\n  \"amount\": \"10\",\r\n  \"symbol\": \"$tin\",\r\n  \"created\": \"2025-06-09T18:50:58.576\",\r\n  \"updated\": \"2025-06-09T18:50:58.576\",\r\n  \"sourceChannel\":\"PSE\" ,\r\n  \"transactionPurpose\":\"PAYMENTALIADOS\" ,\r\n  \"error\": {\r\n    \r\n    \"message\": \"PAYMENTALIADOSPAYMENTALIADOSPA32sS\"\r\n  }\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -711,7 +711,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n  \"transferId\": \"04gGnPuZJbnTNls1a\",\r\n  \"tx_id\": \"3PnV6fLLJZrYssHTzpvjh\",\r\n  \"sourceWallet\": \"walletOrigen123\",\r\n  \"sourceSigner\": \"signerOrigen456\",\r\n  \"sourceBank\": \"Banco Rojo\",\r\n  \"sourceBankBicfi\": \"BCRD\",\r\n  \"targetWallet\": \"walletDestino789\",\r\n  \"targetSigner\": \"signerDestino012\",\r\n  \"targetBank\": \"Banco Amarillo\",\r\n  \"targetBankBicfi\": \"BAMR\",\r\n  \"amount\": \"15000\",\r\n  \"symbol\": \"$tin\",\r\n  \"type\": \"SEND\",\r\n  \"status\": \"COMPLETED\",\r\n  \"created\": \"2023-07-25T14:55:22-05:00\",\r\n  \"updated\": \"2023-07-25T14:55:30-05:00\",\r\n  \"sourceChannel\": \"PSE\",\r\n  \"transactionPurpose\": \"Pago de servicios\",\r\n  \"error\": {\r\n    \"code\": \"1013\"\r\n  }\r\n}",
+					"raw": "{\r\n  \"transferId\": \"02mhGOoMbaGZbJDj5\",\r\n  \"txId\": \"14acf8e9-1eb1-47ef-b0f2-77415738cbed\",\r\n  \"type\": \"SEND\",\r\n  \"status\": \"COMPLETED\",\r\n  \"sourceWallet\": \"$573134110107\",\r\n  \"sourceSigner\": \"wPhvAtaBdjs5BNeS7gxR6L4q9JM9rRZZTq\",\r\n  \"sourceBank\": \"Banco Rojo\",\r\n  \"sourceBankBicfi\":\"7095\" ,\r\n  \"targetWallet\":\"walletDestino789\" ,\r\n  \"targetSigner\":\"signerDestino012\" ,\r\n   \"targetBank\": \"Banco Amarillo\",\r\n  \"targetBankBicfi\": \"3854\",\r\n  \"amount\": \"10\",\r\n  \"symbol\": \"$tin\",\r\n  \"created\": \"2025-06-09T18:50:58.576\",\r\n  \"updated\": \"2025-06-09T18:50:58.576\",\r\n  \"sourceChannel\":\"PSE\" ,\r\n  \"transactionPurpose\":\"PAYMENTALIADOS\" ,\r\n  \"error\": {\r\n    \"code\": \"1013\"\r\n    \r\n  }\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -774,7 +774,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n  \"transferId\": \"04gGnPuZJbnTNls1a\",\r\n  \"tx_id\": \"3PnV6fLLJZrYssHTzpvjh\",\r\n  \"sourceWallet\": \"walletOrigen123\",\r\n  \"sourceSigner\": \"signerOrigen456\",\r\n  \"sourceBank\": \"Banco Rojo\",\r\n  \"sourceBankBicfi\": \"BCRD\",\r\n  \"targetWallet\": \"walletDestino789\",\r\n  \"targetSigner\": \"signerDestino012\",\r\n  \r\n  \"targetBankBicfi\": \"BAMR\",\r\n  \"amount\": \"15000\",\r\n  \"symbol\": \"$tin\",\r\n  \"type\": \"SEND\",\r\n  \"status\": \"COMPLETED\",\r\n  \"created\": \"2023-07-25T14:55:22-05:00\",\r\n  \"updated\": \"2023-07-25T14:55:30-05:00\",\r\n  \"sourceChannel\": \"PSE\",\r\n  \"transactionPurpose\": \"Pago de servicios\",\r\n  \"error\": {\r\n    \"code\": \"1013\",\r\n    \"message\": \"Descripción del código de error\"\r\n  }\r\n}",
+					"raw": "{\r\n  \"transferId\": \"02mhGOoMbaGZbJDj5\",\r\n  \"txId\": \"14acf8e9-1eb1-47ef-b0f2-77415738cbed\",\r\n  \"type\": \"SEND\",\r\n  \"status\": \"COMPLETED\",\r\n  \"sourceWallet\": \"$573134110107\",\r\n  \"sourceSigner\": \"wPhvAtaBdjs5BNeS7gxR6L4q9JM9rRZZTq\",\r\n  \"sourceBank\": \"Banco Rojo\",\r\n  \"sourceBankBicfi\":\"7095\" ,\r\n  \"targetWallet\":\"walletDestino789\" ,\r\n  \"targetSigner\":\"signerDestino012\" ,\r\n  \r\n  \"targetBankBicfi\": \"3854\",\r\n  \"amount\": \"10\",\r\n  \"symbol\": \"$tin\",\r\n  \"created\": \"2025-06-09T18:50:58.576\",\r\n  \"updated\": \"2025-06-09T18:50:58.576\",\r\n  \"sourceChannel\":\"PSE\" ,\r\n  \"transactionPurpose\":\"PAYMENTALIADOS\" ,\r\n  \"error\": {\r\n    \"code\": \"1013\",\r\n    \"message\": \"PAYMENTALIADOSPAYMENTALIADOSPA32sS\"\r\n  }\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -837,7 +837,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n  \"transferId\": \"04gGnPuZJbnTNls1a\",\r\n  \"tx_id\": \"3PnV6fLLJZrYssHTzpvjh\",\r\n  \"sourceWallet\": \"walletOrigen123\",\r\n  \"sourceSigner\": \"signerOrigen456\",\r\n\r\n  \"sourceBankBicfi\": \"BCRD\",\r\n  \"targetWallet\": \"walletDestino789\",\r\n  \"targetSigner\": \"signerDestino012\",\r\n  \"targetBank\": \"Banco Amarillo\",\r\n  \"targetBankBicfi\": \"BAMR\",\r\n  \"amount\": \"15000\",\r\n  \"symbol\": \"$tin\",\r\n  \"type\": \"SEND\",\r\n  \"status\": \"COMPLETED\",\r\n  \"created\": \"2023-07-25T14:55:22-05:00\",\r\n  \"updated\": \"2023-07-25T14:55:30-05:00\",\r\n  \"sourceChannel\": \"PSE\",\r\n  \"transactionPurpose\": \"Pago de servicios\",\r\n  \"error\": {\r\n    \"code\": \"1013\",\r\n    \"message\": \"Descripción del código de error\"\r\n  }\r\n}",
+					"raw": "{\r\n  \"transferId\": \"02mhGOoMbaGZbJDj5\",\r\n  \"txId\": \"14acf8e9-1eb1-47ef-b0f2-77415738cbed\",\r\n  \"type\": \"SEND\",\r\n  \"status\": \"COMPLETED\",\r\n  \"sourceWallet\": \"$573134110107\",\r\n  \"sourceSigner\": \"wPhvAtaBdjs5BNeS7gxR6L4q9JM9rRZZTq\",\r\n  \r\n  \"sourceBankBicfi\":\"7095\" ,\r\n  \"targetWallet\":\"walletDestino789\" ,\r\n  \"targetSigner\":\"signerDestino012\" ,\r\n   \"targetBank\": \"Banco Amarillo\",\r\n  \"targetBankBicfi\": \"3854\",\r\n  \"amount\": \"10\",\r\n  \"symbol\": \"$tin\",\r\n  \"created\": \"2025-06-09T18:50:58.576\",\r\n  \"updated\": \"2025-06-09T18:50:58.576\",\r\n  \"sourceChannel\":\"PSE\" ,\r\n  \"transactionPurpose\":\"PAYMENTALIADOS\" ,\r\n  \"error\": {\r\n    \"code\": \"1013\",\r\n    \"message\": \"PAYMENTALIADOSPAYMENTALIADOSPA32sS\"\r\n  }\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -900,7 +900,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n  \"transferId\": \"04gGnPuZJbnTNls1a\",\r\n  \"tx_id\": \"3PnV6fLLJZrYssHTzpvjh\",\r\n  \r\n  \"sourceSigner\": \"signerOrigen456\",\r\n  \"sourceBank\": \"Banco Rojo\",\r\n  \"sourceBankBicfi\": \"BCRD\",\r\n  \"targetWallet\": \"walletDestino789\",\r\n  \"targetSigner\": \"signerDestino012\",\r\n  \"targetBank\": \"Banco Amarillo\",\r\n  \"targetBankBicfi\": \"BAMR\",\r\n  \"amount\": \"15000\",\r\n  \"symbol\": \"$tin\",\r\n  \"type\": \"SEND\",\r\n  \"status\": \"COMPLETED\",\r\n  \"created\": \"2023-07-25T14:55:22-05:00\",\r\n  \"updated\": \"2023-07-25T14:55:30-05:00\",\r\n  \"sourceChannel\": \"PSE\",\r\n  \"transactionPurpose\": \"Pago de servicios\",\r\n  \"error\": {\r\n    \"code\": \"1013\",\r\n    \"message\": \"Descripción del código de error\"\r\n  }\r\n}",
+					"raw": "{\r\n  \"transferId\": \"02mhGOoMbaGZbJDj5\",\r\n  \"txId\": \"14acf8e9-1eb1-47ef-b0f2-77415738cbed\",\r\n  \"type\": \"SEND\",\r\n  \"status\": \"COMPLETED\",\r\n \r\n  \"sourceSigner\": \"wPhvAtaBdjs5BNeS7gxR6L4q9JM9rRZZTq\",\r\n  \"sourceBank\": \"Banco Rojo\",\r\n  \"sourceBankBicfi\":\"7095\" ,\r\n  \"targetWallet\":\"walletDestino789\" ,\r\n  \"targetSigner\":\"signerDestino012\" ,\r\n   \"targetBank\": \"Banco Amarillo\",\r\n  \"targetBankBicfi\": \"3854\",\r\n  \"amount\": \"10\",\r\n  \"symbol\": \"$tin\",\r\n  \"created\": \"2025-06-09T18:50:58.576\",\r\n  \"updated\": \"2025-06-09T18:50:58.576\",\r\n  \"sourceChannel\":\"PSE\" ,\r\n  \"transactionPurpose\":\"PAYMENTALIADOS\" ,\r\n  \"error\": {\r\n    \"code\": \"1013\",\r\n    \"message\": \"PAYMENTALIADOSPAYMENTALIADOSPA32sS\"\r\n  }\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -963,7 +963,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n  \"transferId\": \"04gGnPuZJbnTNls1a\",\r\n  \"tx_id\": \"3PnV6fLLJZrYssHTzpvjh\",\r\n  \"sourceWallet\": \"walletOrigen123\",\r\n  \r\n  \"sourceBank\": \"Banco Rojo\",\r\n  \"sourceBankBicfi\": \"BCRD\",\r\n  \"targetWallet\": \"walletDestino789\",\r\n  \"targetSigner\": \"signerDestino012\",\r\n  \"targetBank\": \"Banco Amarillo\",\r\n  \"targetBankBicfi\": \"BAMR\",\r\n  \"amount\": \"15000\",\r\n  \"symbol\": \"$tin\",\r\n  \"type\": \"SEND\",\r\n  \"status\": \"COMPLETED\",\r\n  \"created\": \"2023-07-25T14:55:22-05:00\",\r\n  \"updated\": \"2023-07-25T14:55:30-05:00\",\r\n  \"sourceChannel\": \"PSE\",\r\n  \"transactionPurpose\": \"Pago de servicios\",\r\n  \"error\": {\r\n    \"code\": \"1013\",\r\n    \"message\": \"Descripción del código de error\"\r\n  }\r\n}",
+					"raw": "{\r\n  \"transferId\": \"02mhGOoMbaGZbJDj5\",\r\n  \"txId\": \"14acf8e9-1eb1-47ef-b0f2-77415738cbed\",\r\n  \"type\": \"SEND\",\r\n  \"status\": \"COMPLETED\",\r\n  \"sourceWallet\": \"$573134110107\",\r\n  \r\n  \"sourceBank\": \"Banco Rojo\",\r\n  \"sourceBankBicfi\":\"7095\" ,\r\n  \"targetWallet\":\"walletDestino789\" ,\r\n  \"targetSigner\":\"signerDestino012\" ,\r\n   \"targetBank\": \"Banco Amarillo\",\r\n  \"targetBankBicfi\": \"3854\",\r\n  \"amount\": \"10\",\r\n  \"symbol\": \"$tin\",\r\n  \"created\": \"2025-06-09T18:50:58.576\",\r\n  \"updated\": \"2025-06-09T18:50:58.576\",\r\n  \"sourceChannel\":\"PSE\" ,\r\n  \"transactionPurpose\":\"PAYMENTALIADOS\" ,\r\n  \"error\": {\r\n    \"code\": \"1013\",\r\n    \"message\": \"PAYMENTALIADOSPAYMENTALIADOSPA32sS\"\r\n  }\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -1026,7 +1026,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n  \"transferId\": \"04gGnPuZJbnTNls1a\",\r\n  \"tx_id\": \"3PnV6fLLJZrYssHTzpvjh\",\r\n  \"sourceWallet\": \"walletOrigen123\",\r\n  \"sourceSigner\": \"signerOrigen456\",\r\n  \"sourceBank\": \"Banco Rojo\",\r\n  \r\n  \"targetWallet\": \"walletDestino789\",\r\n  \"targetSigner\": \"signerDestino012\",\r\n  \"targetBank\": \"Banco Amarillo\",\r\n  \"targetBankBicfi\": \"BAMR\",\r\n  \"amount\": \"15000\",\r\n  \"symbol\": \"$tin\",\r\n  \"type\": \"SEND\",\r\n  \"status\": \"COMPLETED\",\r\n  \"created\": \"2023-07-25T14:55:22-05:00\",\r\n  \"updated\": \"2023-07-25T14:55:30-05:00\",\r\n  \"sourceChannel\": \"PSE\",\r\n  \"transactionPurpose\": \"Pago de servicios\",\r\n  \"error\": {\r\n    \"code\": \"1013\",\r\n    \"message\": \"Descripción del código de error\"\r\n  }\r\n}",
+					"raw": "{\r\n  \"transferId\": \"02mhGOoMbaGZbJDj5\",\r\n  \"txId\": \"14acf8e9-1eb1-47ef-b0f2-77415738cbed\",\r\n  \"type\": \"SEND\",\r\n  \"status\": \"COMPLETED\",\r\n  \"sourceWallet\": \"$573134110107\",\r\n  \"sourceSigner\": \"wPhvAtaBdjs5BNeS7gxR6L4q9JM9rRZZTq\",\r\n  \"sourceBank\": \"Banco Rojo\",\r\n  \r\n  \"targetWallet\":\"walletDestino789\" ,\r\n  \"targetSigner\":\"signerDestino012\" ,\r\n   \"targetBank\": \"Banco Amarillo\",\r\n  \"targetBankBicfi\": \"3854\",\r\n  \"amount\": \"10\",\r\n  \"symbol\": \"$tin\",\r\n  \"created\": \"2025-06-09T18:50:58.576\",\r\n  \"updated\": \"2025-06-09T18:50:58.576\",\r\n  \"sourceChannel\":\"PSE\" ,\r\n  \"transactionPurpose\":\"PAYMENTALIADOS\" ,\r\n  \"error\": {\r\n    \"code\": \"1013\",\r\n    \"message\": \"PAYMENTALIADOSPAYMENTALIADOSPA32sS\"\r\n  }\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -1089,7 +1089,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n  \"transferId\": \"04gGnPuZJbnTNls1a\",\r\n  \"tx_id\": \"3PnV6fLLJZrYssHTzpvjh\",\r\n  \"sourceWallet\": \"walletOrigen123\",\r\n  \"sourceSigner\": \"signerOrigen456\",\r\n  \"sourceBank\": \"Banco Rojo\",\r\n  \"sourceBankBicfi\": \"BCRD\",\r\n  \r\n  \"targetSigner\": \"signerDestino012\",\r\n  \"targetBank\": \"Banco Amarillo\",\r\n  \"targetBankBicfi\": \"BAMR\",\r\n  \"amount\": \"15000\",\r\n  \"symbol\": \"$tin\",\r\n  \"type\": \"SEND\",\r\n  \"status\": \"COMPLETED\",\r\n  \"created\": \"2023-07-25T14:55:22-05:00\",\r\n  \"updated\": \"2023-07-25T14:55:30-05:00\",\r\n  \"sourceChannel\": \"PSE\",\r\n  \"transactionPurpose\": \"Pago de servicios\",\r\n  \"error\": {\r\n    \"code\": \"1013\",\r\n    \"message\": \"Descripción del código de error\"\r\n  }\r\n}",
+					"raw": "{\r\n  \"transferId\": \"02mhGOoMbaGZbJDj5\",\r\n  \"txId\": \"14acf8e9-1eb1-47ef-b0f2-77415738cbed\",\r\n  \"type\": \"SEND\",\r\n  \"status\": \"COMPLETED\",\r\n  \"sourceWallet\": \"$573134110107\",\r\n  \"sourceSigner\": \"wPhvAtaBdjs5BNeS7gxR6L4q9JM9rRZZTq\",\r\n  \"sourceBank\": \"Banco Rojo\",\r\n  \"sourceBankBicfi\":\"7095\" ,\r\n  \r\n  \"targetSigner\":\"signerDestino012\" ,\r\n   \"targetBank\": \"Banco Amarillo\",\r\n  \"targetBankBicfi\": \"3854\",\r\n  \"amount\": \"10\",\r\n  \"symbol\": \"$tin\",\r\n  \"created\": \"2025-06-09T18:50:58.576\",\r\n  \"updated\": \"2025-06-09T18:50:58.576\",\r\n  \"sourceChannel\":\"PSE\" ,\r\n  \"transactionPurpose\":\"PAYMENTALIADOS\" ,\r\n  \"error\": {\r\n    \"code\": \"1013\",\r\n    \"message\": \"PAYMENTALIADOSPAYMENTALIADOSPA32sS\"\r\n  }\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -1152,7 +1152,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n  \"transferId\": \"04gGnPuZJbnTNls1a\",\r\n  \"tx_id\": \"3PnV6fLLJZrYssHTzpvjh\",\r\n  \"sourceWallet\": \"walletOrigen123\",\r\n  \"sourceSigner\": \"signerOrigen456\",\r\n  \"sourceBank\": \"Banco Rojo\",\r\n  \"sourceBankBicfi\": \"BCRD\",\r\n  \"targetWallet\": \"walletDestino789\",\r\n  \r\n  \"targetBank\": \"Banco Amarillo\",\r\n  \"targetBankBicfi\": \"BAMR\",\r\n  \"amount\": \"15000\",\r\n  \"symbol\": \"$tin\",\r\n  \"type\": \"SEND\",\r\n  \"status\": \"COMPLETED\",\r\n  \"created\": \"2023-07-25T14:55:22-05:00\",\r\n  \"updated\": \"2023-07-25T14:55:30-05:00\",\r\n  \"sourceChannel\": \"PSE\",\r\n  \"transactionPurpose\": \"Pago de servicios\",\r\n  \"error\": {\r\n    \"code\": \"1013\",\r\n    \"message\": \"Descripción del código de error\"\r\n  }\r\n}",
+					"raw": "{\r\n  \"transferId\": \"02mhGOoMbaGZbJDj5\",\r\n  \"txId\": \"14acf8e9-1eb1-47ef-b0f2-77415738cbed\",\r\n  \"type\": \"SEND\",\r\n  \"status\": \"COMPLETED\",\r\n  \"sourceWallet\": \"$573134110107\",\r\n  \"sourceSigner\": \"wPhvAtaBdjs5BNeS7gxR6L4q9JM9rRZZTq\",\r\n  \"sourceBank\": \"Banco Rojo\",\r\n  \"sourceBankBicfi\":\"7095\" ,\r\n  \"targetWallet\":\"walletDestino789\" ,\r\n  \r\n   \"targetBank\": \"Banco Amarillo\",\r\n  \"targetBankBicfi\": \"3854\",\r\n  \"amount\": \"10\",\r\n  \"symbol\": \"$tin\",\r\n  \"created\": \"2025-06-09T18:50:58.576\",\r\n  \"updated\": \"2025-06-09T18:50:58.576\",\r\n  \"sourceChannel\":\"PSE\" ,\r\n  \"transactionPurpose\":\"PAYMENTALIADOS\" ,\r\n  \"error\": {\r\n    \"code\": \"1013\",\r\n    \"message\": \"PAYMENTALIADOSPAYMENTALIADOSPA32sS\"\r\n  }\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -1215,7 +1215,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n  \"transferId\": \"04gGnPuZJbnTNls1a\",\r\n  \"tx_id\": \"3PnV6fLLJZrYssHTzpvjh\",\r\n  \"sourceWallet\": \"walletOrigen123\",\r\n  \"sourceSigner\": \"signerOrigen456\",\r\n  \"sourceBank\": \"Banco Rojo\",\r\n  \"sourceBankBicfi\": \"BCRD\",\r\n  \"targetWallet\": \"walletDestino789\",\r\n  \"targetSigner\": \"signerDestino012\",\r\n  \"targetBank\": \"Banco Amarillo\",\r\n  \r\n  \"amount\": \"15000\",\r\n  \"symbol\": \"$tin\",\r\n  \"type\": \"SEND\",\r\n  \"status\": \"COMPLETED\",\r\n  \"created\": \"2023-07-25T14:55:22-05:00\",\r\n  \"updated\": \"2023-07-25T14:55:30-05:00\",\r\n  \"sourceChannel\": \"PSE\",\r\n  \"transactionPurpose\": \"Pago de servicios\",\r\n  \"error\": {\r\n    \"code\": \"1013\",\r\n    \"message\": \"Descripción del código de error\"\r\n  }\r\n}",
+					"raw": "{\r\n  \"transferId\": \"02mhGOoMbaGZbJDj5\",\r\n  \"txId\": \"14acf8e9-1eb1-47ef-b0f2-77415738cbed\",\r\n  \"type\": \"SEND\",\r\n  \"status\": \"COMPLETED\",\r\n  \"sourceWallet\": \"$573134110107\",\r\n  \"sourceSigner\": \"wPhvAtaBdjs5BNeS7gxR6L4q9JM9rRZZTq\",\r\n  \"sourceBank\": \"Banco Rojo\",\r\n  \"sourceBankBicfi\":\"7095\" ,\r\n  \"targetWallet\":\"walletDestino789\" ,\r\n  \"targetSigner\":\"signerDestino012\" ,\r\n   \"targetBank\": \"Banco Amarillo\",\r\n  \r\n  \"amount\": \"10\",\r\n  \"symbol\": \"$tin\",\r\n  \"created\": \"2025-06-09T18:50:58.576\",\r\n  \"updated\": \"2025-06-09T18:50:58.576\",\r\n  \"sourceChannel\":\"PSE\" ,\r\n  \"transactionPurpose\":\"PAYMENTALIADOS\" ,\r\n  \"error\": {\r\n    \"code\": \"1013\",\r\n    \"message\": \"PAYMENTALIADOSPAYMENTALIADOSPA32sS\"\r\n  }\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -1278,7 +1278,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n  \"transferId\": \"04gGnPuZJbnTNls1a\",\r\n  \"tx_id\": \"3PnV6fLLJZrYssHTzpvjh\",\r\n  \"sourceWallet\": \"walletOrigen123\",\r\n  \"sourceSigner\": \"signerOrigen456\",\r\n  \"sourceBank\": \"Banco Rojo\",\r\n  \"sourceBankBicfi\": \"BCRD\",\r\n  \"targetWallet\": \"walletDestino789\",\r\n  \"targetSigner\": \"signerDestino012\",\r\n  \"targetBank\": \"Banco Amarillo\",\r\n  \"targetBankBicfi\": \"BAMR\",\r\n  \"amount\": \"15000\",\r\n  \"symbol\": \"$tin\",\r\n  \"type\": \"SEND\",\r\n  \"status\": \"COMPLETED\",\r\n  \"created\": \"2023-07-25T14:55:22-05:00\",\r\n  \"updated\": \"2023-07-25T14:55:30-05:00\",\r\n  \r\n  \"transactionPurpose\": \"Pago de servicios\",\r\n  \"error\": {\r\n    \"code\": \"1013\",\r\n    \"message\": \"Descripción del código de error\"\r\n  }\r\n}",
+					"raw": "{\r\n  \"transferId\": \"02mhGOoMbaGZbJDj5\",\r\n  \"txId\": \"14acf8e9-1eb1-47ef-b0f2-77415738cbed\",\r\n  \"type\": \"SEND\",\r\n  \"status\": \"COMPLETED\",\r\n  \"sourceWallet\": \"$573134110107\",\r\n  \"sourceSigner\": \"wPhvAtaBdjs5BNeS7gxR6L4q9JM9rRZZTq\",\r\n  \"sourceBank\": \"Banco Rojo\",\r\n  \"sourceBankBicfi\":\"7095\" ,\r\n  \"targetWallet\":\"walletDestino789\" ,\r\n  \"targetSigner\":\"signerDestino012\" ,\r\n   \"targetBank\": \"Banco Amarillo\",\r\n  \"targetBankBicfi\": \"3854\",\r\n  \"amount\": \"10\",\r\n  \"symbol\": \"$tin\",\r\n  \"created\": \"2025-06-09T18:50:58.576\",\r\n  \"updated\": \"2025-06-09T18:50:58.576\",\r\n \r\n  \"transactionPurpose\":\"PAYMENTALIADOS\" ,\r\n  \"error\": {\r\n    \"code\": \"1013\",\r\n    \"message\": \"PAYMENTALIADOSPAYMENTALIADOSPA32sS\"\r\n  }\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -1341,7 +1341,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n  \"transferId\": \"04gGnPuZJbnTNls1a\",\r\n  \"tx_id\": \"3PnV6fLLJZrYssHTzpvjh\",\r\n  \"sourceWallet\": \"walletOrigen123\",\r\n  \"sourceSigner\": \"signerOrigen456\",\r\n  \"sourceBank\": \"Banco Rojo\",\r\n  \"sourceBankBicfi\": \"BCRD\",\r\n  \"targetWallet\": \"walletDestino789\",\r\n  \"targetSigner\": \"signerDestino012\",\r\n  \"targetBank\": \"Banco Amarillo\",\r\n  \"targetBankBicfi\": \"BAMR\",\r\n  \"amount\": \"15000\",\r\n  \"symbol\": \"$tin\",\r\n  \"type\": \"SEND\",\r\n  \"status\": \"COMPLETED\",\r\n  \"created\": \"2023-07-25T14:55:22-05:00\",\r\n  \"updated\": \"2023-07-25T14:55:30-05:00\",\r\n  \"sourceChannel\": \"PSE\",\r\n  \r\n  \"error\": {\r\n    \"code\": \"1013\",\r\n    \"message\": \"Descripción del código de error\"\r\n  }\r\n}",
+					"raw": "{\r\n  \"transferId\": \"02mhGOoMbaGZbJDj5\",\r\n  \"txId\": \"14acf8e9-1eb1-47ef-b0f2-77415738cbed\",\r\n  \"type\": \"SEND\",\r\n  \"status\": \"COMPLETED\",\r\n  \"sourceWallet\": \"$573134110107\",\r\n  \"sourceSigner\": \"wPhvAtaBdjs5BNeS7gxR6L4q9JM9rRZZTq\",\r\n  \"sourceBank\": \"Banco Rojo\",\r\n  \"sourceBankBicfi\":\"7095\" ,\r\n  \"targetWallet\":\"walletDestino789\" ,\r\n  \"targetSigner\":\"signerDestino012\" ,\r\n   \"targetBank\": \"Banco Amarillo\",\r\n  \"targetBankBicfi\": \"3854\",\r\n  \"amount\": \"10\",\r\n  \"symbol\": \"$tin\",\r\n  \"created\": \"2025-06-09T18:50:58.576\",\r\n  \"updated\": \"2025-06-09T18:50:58.576\",\r\n  \"sourceChannel\":\"PSE\" ,\r\n  \r\n  \"error\": {\r\n    \"code\": \"1013\",\r\n    \"message\": \"PAYMENTALIADOSPAYMENTALIADOSPA32sS\"\r\n  }\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
