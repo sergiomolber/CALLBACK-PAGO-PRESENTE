@@ -58,7 +58,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n  \"package\": {\r\n    \"type\": \"COLLECTION\",\r\n    \"createDate\": \"2023-01-03T23:47:26.186Z\",\r\n    \"packageId\": \"{{$randomUUID}}\",\r\n    \"sourceId\": \"65c242c3-1ea6-45c4-a71f-a41538ded408\"\r\n  },\r\n  \"transfers\": [\r\n    {\r\n      \"transferId\": \"{{$randomUUID}}\",\r\n      \"source\": \"$573134110107\",\r\n      \"target\": \"wa5vcMvXLxWShyWCHsknJyg5uuNP5opd46\",\r\n      \"amount\": 100.00,\r\n      \"description\": \"Transferencia pago de compra.\",\r\n      \"targetBank\": \"AG1525AXCS\",\r\n      \"merchantId\": \"89dc15a5-6140-4694-804e-531076307041\",\r\n      \"sourceChannel\": \"POS\",\r\n      \"sourceId\": \"d0508e8b-3065-467f-990c-dc1b2aea8944\",\r\n      \"createDate\": \"2023-01-03T23:47:26.186Z\"\r\n    }\r\n    \r\n  ]\r\n}",
+					"raw": "{\r\n\"package\": {\r\n    \"type\": \"COLLECTION\",\r\n    \"createDate\": \"2024-09-02T09:11:22.974Z\",\r\n    \"packageId\": \"{{$randomUUID}}\",\r\n    \"sourceId\": \"{{$randomUUID}}\"\r\n  },\r\n    \"transfers\": [\r\n        {\r\n            \"transferId\": \"{{$randomUUID}}\",\r\n            \"source\": \"$573134110107\",\r\n            \"target\": \"wa5vcMvXLxWShyWCHsknJyg5uuNP5opd46\",\r\n            \"amount\": 1.00,\r\n            \"description\": \"Transferencia pago de compra.\",\r\n            \"targetBank\": null,\r\n            \"merchantId\": \"010601557\",\r\n            \"sourceChannel\": \"POS\",\r\n            \"sourceId\": \"POS\",\r\n            \"createDate\": \"2024-09-02T09:11:22.974Z\"\r\n        }\r\n    ]\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -509,7 +509,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n  \"transferId\": \"{{txRef}}\",\r\n  \"txId\": \"{{transferId}}\",\r\n  \"type\": \"SEND\",\r\n  \"status\": \"REJECTED\",\r\n  \"sourceWallet\": \"$573134110107\",\r\n  \"sourceSigner\": \"wPhvAtaBdjs5BNeS7gxR6L4q9JM9rRZZTq\",\r\n  \"sourceBank\": \"Banco Rojo\",\r\n  \"sourceBankBicfi\":\"7095\" ,\r\n  \"targetWallet\":\"walletDestino789\" ,\r\n  \"targetSigner\":\"signerDestino012\" ,\r\n   \"targetBank\": \"Banco Amarillo\",\r\n  \"targetBankBicfi\": \"3854\",\r\n  \"amount\": \"10\",\r\n  \"symbol\": \"$tin\",\r\n  \"created\": \"2025-06-09T18:50:58.576\",\r\n  \"updated\": \"2025-06-09T18:50:58.576\",\r\n  \"sourceChannel\":\"PSE\" ,\r\n  \"transactionPurpose\":\"PAYMENTALIADOS\" ,\r\n  \"error\": {\r\n    \"code\": \"1013\",\r\n    \"message\": \"PAYMENTALIADOSPAYMENTALIADOSPA32sS\"\r\n  }\r\n}",
+					"raw": "{\r\n  \"transferId\": \"{{txRef}}\",\r\n  \"txId\": \"{{transferId}}\",\r\n \"sourceWallet\": \"null\",\r\n  \"sourceSigner\": \"wPhvAtaBdjs5BNeS7gxR6L4q9JM9rRZZTq\",\r\n  \"sourceBank\": \"Banco rojo\",\r\n  \"sourceBankBicfi\": \"7095\",\r\n  \"targetWallet\": \"$573009873210\",\r\n  \"targetSigner\": \"wa5vcMvXLxWShyWCHsknJyg5uuNP5opd46\",\r\n  \"targetBank\": \"Banco amarillo\",\r\n  \"targetBankBicfi\": \"3854\",\r\n  \"amount\": \"1.00\",\r\n  \"symbol\": \"$tin\",\r\n  \"type\": \"REQUEST\",\r\n  \"status\": \"COMPLETED\",\r\n  \"created\": \"2025-06-09T18:50:58.576\",\r\n  \"updated\": \"2025-06-09T18:50:58.576\",\r\n  \"sourceChannel\": \"POS\",\r\n  \"transactionPurpose\": \"PAYMENTALIADOS\",\r\n  \"error\": {\r\n    \"code\": \"0\",\r\n    \"message\": \"Success\"\r\n  }\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"

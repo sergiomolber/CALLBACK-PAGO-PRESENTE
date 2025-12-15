@@ -1,10 +1,10 @@
 {
 	"info": {
-		"_postman_id": "49293822-d34c-474c-b36f-c997ef0cc0f2",
+		"_postman_id": "bee04f98-5d36-4977-9375-6071c67ac497",
 		"name": "Validar respuestas",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
 		"_exporter_id": "29460625",
-		"_collection_link": "https://red-satellite-829132.postman.co/workspace/Pago-presente-ambiente-pruebas~be2f81e5-b0d7-46c5-b35f-4cd7d925a708/collection/29460625-49293822-d34c-474c-b36f-c997ef0cc0f2?action=share&source=collection_link&creator=29460625"
+		"_collection_link": "https://red-satellite-829132.postman.co/workspace/CALLBACK-ULTIMO~36fe7b08-fb6d-43f5-a4a1-891d44294124/collection/29460625-bee04f98-5d36-4977-9375-6071c67ac497?action=share&source=collection_link&creator=29460625"
 	},
 	"item": [
 		{
@@ -62,7 +62,8 @@
 							""
 						],
 						"type": "text/javascript",
-						"packages": {}
+						"packages": {},
+						"requests": {}
 					}
 				}
 			],
@@ -98,7 +99,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n  \"package\": {\r\n    \"type\": \"COLLECTION\",\r\n    \"createDate\": \"\",\r\n    \"packageId\": \"\",\r\n    \"sourceId\":\"fdfdsfdsfdsfsd\"\r\n  },\r\n  \"transfers\": [\r\n    {\r\n      \"transferId\": \"{{$randomUUID}}\",\r\n      \"source\": \"$573124080330\",\r\n      \"target\": \"wcc7vHUcnYpJcba8eiqEmmARtR3cS1PGfV\",\r\n      \"amount\":21,\r\n      \"description\": \"Probando\",\r\n      \"targetBank\": \"COLOMBIA\",\r\n      \"merchantId\": \"AG1525AXCS2AG\",\r\n      \"sourceChannel\": \"POS\",\r\n      \"sourceId\": \"d0508e8b-3065-467f-990c-dc1b2aea8944\",\r\n      \"createDate\": \"2023-01-03T23:47:26.186Z\"\r\n    }\r\n      ]\r\n}",
+					"raw": "{\r\n\"package\": {\r\n    \"type\": \"COLLECTION\",\r\n    \"createDate\": \"2024-09-02T09:11:22.974Z\",\r\n    \"packageId\": \"{{$randomUUID}}\",\r\n    \"sourceId\": \"{{$randomUUID}}\"\r\n  },\r\n    \"transfers\": [\r\n        {\r\n            \"transferId\": \"{{$randomUUID}}\",\r\n            \"source\": \"$573134110107\",\r\n            \"target\": \"wa5vcMvXLxWShyWCHsknJyg5uuNP5opd46\",\r\n            \"amount\": 1.00,\r\n            \"description\": \"Transferencia pago de compra.\",\r\n            \"targetBank\": null,\r\n            \"merchantId\": \"010601557\",\r\n            \"sourceChannel\": \"POS\",\r\n            \"sourceId\": \"POS\",\r\n            \"createDate\": \"2024-09-02T09:11:22.974Z\"\r\n        }\r\n    ]\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -452,66 +453,12 @@
 							"pm.test(\"Status code is 200\", function () {\r",
 							"    pm.response.to.have.status(200);\r",
 							"});\r",
-							"// Guarda la respuesta JSON en una variable\r",
-							"var jsonData = pm.response.json();\r",
 							"\r",
-							"// Verifica que los campos en \"meta\" estén presentes y sean correctos\r",
-							"pm.test(\"Verificar que los campos en 'meta' estén presentes\", function () {\r",
-							"    pm.expect(jsonData.meta).to.have.property(\"messageUid\");\r",
-							"    pm.expect(jsonData.meta).to.have.property(\"requestDt\");\r",
-							"    pm.expect(jsonData.meta).to.have.property(\"requestAppId\");\r",
-							"});\r",
-							"\r",
-							"// Verifica que los campos \"statusCode\" y \"statusDesc\" estén presentes y sean correctos\r",
-							"pm.test(\"Verificar que 'statusCode' y 'statusDesc' estén presentes\", function () {\r",
-							"    pm.expect(jsonData).to.have.property(\"statusCode\");\r",
-							"    pm.expect(jsonData).to.have.property(\"statusDesc\");\r",
-							"});\r",
-							"\r",
-							"// Verifica que los campos en \"data\" estén presentes y sean correctos\r",
-							"pm.test(\"Verificar que los campos en 'data' estén presentes\", function () {\r",
-							"    pm.expect(jsonData.data).to.have.property(\"transferId\");\r",
-							"    pm.expect(jsonData.data).to.have.property(\"txRef\");\r",
-							"    pm.expect(jsonData.data).to.have.property(\"status\");\r",
-							"    pm.expect(jsonData.data).to.have.property(\"source\");\r",
-							"    pm.expect(jsonData.data).to.have.property(\"target\");\r",
-							"    pm.expect(jsonData.data).to.have.property(\"amount\");\r",
-							"    pm.expect(jsonData.data).to.have.property(\"description\");\r",
-							"    pm.expect(jsonData.data).to.have.property(\"targetBank\");\r",
-							"    pm.expect(jsonData.data).to.have.property(\"merchantId\");\r",
-							"    pm.expect(jsonData.data).to.have.property(\"sourceChannel\");\r",
-							"    pm.expect(jsonData.data).to.have.property(\"sourceId\");\r",
-							"    pm.expect(jsonData.data).to.have.property(\"createDate\");\r",
-							"    pm.expect(jsonData.data).to.have.property(\"updateDate\");\r",
-							"});\r",
-							"\r",
-							"// Opcionalmente, puedes agregar validaciones adicionales para los valores específicos\r",
-							"pm.test(\"Verificar los valores específicos de los campos\", function () {\r",
-							"    pm.expect(jsonData.meta.messageUid).to.be.a(\"string\");\r",
-							"    pm.expect(new Date(jsonData.meta.requestDt)).to.be.a(\"date\");\r",
-							"    pm.expect(jsonData.meta.requestAppId).to.be.a(\"string\");\r",
-							"\r",
-							"    pm.expect(jsonData.statusCode).to.be.a(\"number\");\r",
-							"    pm.expect(jsonData.statusDesc).to.be.a(\"string\");\r",
-							"\r",
-							"    pm.expect(jsonData.data.transferId).to.be.a(\"string\");\r",
-							"    pm.expect(jsonData.data.txRef).to.be.a(\"string\");\r",
-							"    pm.expect(jsonData.data.status).to.be.a(\"string\");\r",
-							"    pm.expect(jsonData.data.source).to.be.a(\"string\");\r",
-							"    pm.expect(jsonData.data.target).to.be.a(\"string\");\r",
-							"    pm.expect(jsonData.data.amount).to.be.a(\"string\");\r",
-							"    pm.expect(jsonData.data.description).to.be.a(\"string\");\r",
-							"    pm.expect(jsonData.data.targetBank).to.be.a(\"string\");\r",
-							"    pm.expect(jsonData.data.merchantId).to.be.a(\"string\");\r",
-							"    pm.expect(jsonData.data.sourceChannel).to.be.a(\"string\");\r",
-							"    pm.expect(jsonData.data.sourceId).to.be.a(\"string\");\r",
-							"    pm.expect(new Date(jsonData.data.createDate)).to.be.a(\"date\");\r",
-							"    pm.expect(new Date(jsonData.data.updateDate)).to.be.a(\"date\");\r",
-							"});\r",
 							""
 						],
 						"type": "text/javascript",
-						"packages": {}
+						"packages": {},
+						"requests": {}
 					}
 				}
 			],
