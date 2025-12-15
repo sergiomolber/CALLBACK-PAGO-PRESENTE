@@ -24,7 +24,7 @@
     },
     {
       "type": "any",
-      "value": "AAIgOWQ4MTMyZGE1YzYxZjcyMTRlMmM3ZWZjZTZjNmQ0NTUzYJYrdZ6pp-u_3jdybeXp1F0bx6uBLtzSkli90JNK6-4hDWYRauc1GIfbh20Qvm1k97eR2r4Tz56xrIs8mGN77VSuz-qo7ds9E5Yh6zdKgDiJ3n7i-aGJTsWlH4Ppn9s",
+      "value": "AAIgOWQ4MTMyZGE1YzYxZjcyMTRlMmM3ZWZjZTZjNmQ0NTXZ7JjwK6yEP6Ea9xsQBpPuEyb90q0Skc4HfxDMFineM6aC4nip3Bp5gA_4dlRMCBv8sfRdCB4kKlDSjUCD6OKB6kYsHy4vsrqHpPQ_Awz9ntUzNrgB4VqW80m-vZAFssA",
       "key": "access_token"
     },
     {
@@ -44,6 +44,6 @@
     }
   ],
   "_postman_variable_scope": "globals",
-  "_postman_exported_at": "2025-02-27T18:16:32.401Z",
+  "_postman_exported_at": "2025-12-15T22:10:10.983Z",
   "_postman_exported_using": "Newman/6.1.3"
 }

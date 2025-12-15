@@ -1,0 +1,22 @@
+{
+"package": {
+    "type": "COLLECTION",
+    "createDate": "2024-09-02T09:11:22.974Z",
+    "packageId": "1f4dfddf-8a2c-49db-97f8-65f52e3551f1",
+    "sourceId": "fa7cbb40-41ff-4730-a3b8-87515cc2c762"
+  },
+    "transfers": [
+        {
+            "transferId": "b32e730a-c553-4451-b38e-ed96e339e927",
+            "source": "$573134110107",
+            "target": "wa5vcMvXLxWShyWCHsknJyg5uuNP5opd46",
+            "amount": 1.00,
+            "description": "Transferencia pago de compra.",
+            "targetBank": null,
+            "merchantId": "010601557",
+            "sourceChannel": "POS",
+            "sourceId": "POS",
+            "createDate": "2024-09-02T09:11:22.974Z"
+        }
+    ]
+}

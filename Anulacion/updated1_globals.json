@@ -1,7 +1,7 @@
 {
   "_": {
     "postman_variable_scope": "globals",
-    "postman_exported_at": "2025-02-27T18:16:32.401Z",
+    "postman_exported_at": "2025-12-15T22:10:10.983Z",
     "postman_exported_using": "Newman/6.1.3"
   },
   "id": "a812427a-b9f6-4c03-82a5-18e86f60ed75",
@@ -24,7 +24,7 @@
     },
     {
       "type": "any",
-      "value": "AAIgOWQ4MTMyZGE1YzYxZjcyMTRlMmM3ZWZjZTZjNmQ0NTUzYJYrdZ6pp-u_3jdybeXp1F0bx6uBLtzSkli90JNK6-4hDWYRauc1GIfbh20Qvm1k97eR2r4Tz56xrIs8mGN77VSuz-qo7ds9E5Yh6zdKgDiJ3n7i-aGJTsWlH4Ppn9s",
+      "value": "AAIgOWQ4MTMyZGE1YzYxZjcyMTRlMmM3ZWZjZTZjNmQ0NTXZ7JjwK6yEP6Ea9xsQBpPuEyb90q0Skc4HfxDMFineM6aC4nip3Bp5gA_4dlRMCBv8sfRdCB4kKlDSjUCD6OKB6kYsHy4vsrqHpPQ_Awz9ntUzNrgB4VqW80m-vZAFssA",
       "key": "access_token"
     },
     {
@@ -39,11 +39,11 @@
     },
     {
       "type": "any",
-      "value": "AAIgMjI3YWEzMzlkYTE0MjQxMTZjODU4M2UyNGRhMjU4MmQirposewJYjTakMR9S9RrQ1iBW9SWNAl0MSukMK8sXD0f2N_NcO4412qFsD3elP2bnphIkP2WuineJSsDhTtSDPZFgi7qTo5a61Y5psdMGmvYxstad0ed7EiqDY2iq1k8",
+      "value": "AAIgMjI3YWEzMzlkYTE0MjQxMTZjODU4M2UyNGRhMjU4MmRaYFfWUakHIz8QUj3wmKgkLSNHNupUc1voIrnIXQs2Zx7tYgPGG0pjsrtSUbcwgk9xugCMOdprzqE3UaZDMbHecpDiymaZewsIRukiUtUxCoqm9_XpWo_AHChVMO6h8oY",
       "key": "access_token_callback"
     }
   ],
   "_postman_variable_scope": "globals",
-  "_postman_exported_at": "2025-02-27T18:16:39.949Z",
+  "_postman_exported_at": "2025-12-15T22:10:17.944Z",
   "_postman_exported_using": "Newman/6.1.3"
 }

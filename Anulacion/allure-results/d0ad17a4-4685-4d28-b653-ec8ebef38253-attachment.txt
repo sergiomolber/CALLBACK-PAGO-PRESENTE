@@ -1,0 +1,24 @@
+{
+  "transferId": "02no9HR3xGgwXCDyD",
+  "txId": "714eb253-8fbe-4ff9-b7ee-325a25f82f26",
+ "sourceWallet": "null",
+  "sourceSigner": "wPhvAtaBdjs5BNeS7gxR6L4q9JM9rRZZTq",
+  "sourceBank": "Banco rojo",
+  "sourceBankBicfi": "7095",
+  "targetWallet": "$573009873210",
+  "targetSigner": "wa5vcMvXLxWShyWCHsknJyg5uuNP5opd46",
+  "targetBank": "Banco amarillo",
+  "targetBankBicfi": "3854",
+  "amount": "1.00",
+  "symbol": "$tin",
+  "type": "REQUEST",
+  "status": "COMPLETED",
+  "created": "2025-06-09T18:50:58.576",
+  "updated": "2025-06-09T18:50:58.576",
+  "sourceChannel": "POS",
+  "transactionPurpose": "PAYMENTALIADOS",
+  "error": {
+    "code": "0",
+    "message": "Success"
+  }
+}

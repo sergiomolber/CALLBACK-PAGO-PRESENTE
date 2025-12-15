@@ -1,0 +1,1 @@
+{"meta":{"messageUid":"fsdfdsfsd","requestDt":"2025-12-15T17:13:06.941Z","requestAppId":"9d8132da5c61f7214e2c7efce6c6d455"},"statusCode":404,"statusDesc":"NOT FOUND","errors":[{"code":"1014","transferId":"{{txRef1}}","detail":"La transacción consultada no se encuentra registrada"}]}
